@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Will You Be My Valentine? 💖</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+    body {
+
+      margin: 0;
+
+      font-family: Arial, sans-serif;
+
+      background: linear-gradient(135deg, #ff758c, #ff7eb3);
+
+      color: #fff;
+
+      text-align: center;
+
+    }
+
+    .container {
+
+      max-width: 650px;
+
+      margin: auto;
+
+      padding: 25px 15px 40px;
+
+    }
+
+    h1 {
+
+      font-size: 2.2em;
+
+    }
+
+    p {
+
+      font-size: 1.1em;
+
+      line-height: 1.6;
+
+    }
+
+    img {
+
+      width: 100%;
+
+      border-radius: 18px;
+
+      margin: 15px 0;
+
+      box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+
+    }
+
+    .heart {
+
+      font-size: 2em;
+
+      animation: beat 1.2s infinite;
+
+    }
+
+    @keyframes beat {
+
+      0%, 100% { transform: scale(1); }
+
+      50% { transform: scale(1.2); }
+
+    }
+
+    .question {
+
+      margin-top: 25px;
+
+      font-size: 2em;
+
+      font-weight: bold;
+
+    }
+
+    button {
+
+      background: #ff2f68;
+
+      border: none;
+
+      padding: 14px 28px;
+
+      font-size: 1.1em;
+
+      color: white;
+
+      border-radius: 30px;
+
+      cursor: pointer;
+
+      margin-top: 20px;
+
+    }
+
+    button:hover {
+
+      background: #ff0048;
+
+    }
+
+    .yes-msg {
+
+      display: none;
+
+      margin-top: 25px;
+
+      font-size: 1.4em;
+
+    }
+
+    /* Hidden YouTube player */
+
+    #player {
+
+      display: none;
+
+      margin-top: 20px;
+
+    }
+
+    .footer {
+
+      margin-top: 35px;
+
+      font-size: 0.9em;
+
+      opacity: 0.9;
+
+    }
+</style>
+</head>
+<body>
+<div class="container">
+<h1>Hey Love 💕</h1>
+<p>
+
+      From random smiles to unforgettable moments,<br>
+
+      every second with you means everything to me.
+</p>
+<img src="photo1.jpg" alt="Our memory">
+<img src="photo2.jpg" alt="Our moment">
+<div class="heart">❤️</div>
+<div class="question">
+
+      Will You Be My Valentine?
+</div>
+<button onclick="sayYes()">YES 💖</button>
+<div class="yes-msg" id="yesMessage">
+
+      You just made me the happiest person 🥰<br>
+
+      I can’t wait to make more memories with you ❤️
+</div>
+<!-- Hidden YouTube Player -->
+<iframe
+
+      id="player"
+
+      src="https://www.youtube.com/embed/VIDEO_ID?autoplay=1&mute=0&controls=0&loop=1&playlist=VIDEO_ID"
+
+      allow="autoplay; encrypted-media">
+</iframe>
+<div class="footer">
+
+      Made with ❤️ just for you
+</div>
+</div>
+<script>
+
+    function sayYes() {
+
+      document.getElementById("yesMessage").style.display = "block";
+
+      document.getElementById("player").style.display = "block";
+
+    }
+</script>
+</body>
+</html>
+YouTube
+ 
